@@ -165,9 +165,7 @@ const Index = () => {
       </section>
 
       {/* Interface Concept */}
-      <section className="editorial-section border-t border-border">
-        <div className="editorial-container">
-          <span className="editorial-label">05 — Interface Concept</span>
+      <section className="editorial-section border-t border-border reveal">
           <h2 className="editorial-subhead mb-6">Interface Concept</h2>
           <p className="editorial-body mb-12">
             The screen interface was designed to feel native to the boombox —
