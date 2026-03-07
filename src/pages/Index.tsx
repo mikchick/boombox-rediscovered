@@ -135,9 +135,7 @@ const Index = () => {
       </section>
 
       {/* Design Principle */}
-      <section className="editorial-section border-t border-border">
-        <div className="editorial-container">
-          <span className="editorial-label">04 — The Design Principle</span>
+      <section className="editorial-section border-t border-border reveal">
           <h2 className="editorial-subhead mb-6">Respect the Original DNA</h2>
           <p className="editorial-body mb-10">
             Rather than reimagining the boombox from scratch, the guiding
