@@ -109,9 +109,7 @@ const Index = () => {
       </section>
 
       {/* Exploration with AI */}
-      <section className="editorial-section border-t border-border">
-        <div className="editorial-container">
-          <span className="editorial-label">03 — Exploration with AI</span>
+      <section className="editorial-section border-t border-border reveal">
           <h2 className="editorial-subhead mb-6">Exploration with AI</h2>
           <p className="editorial-body mb-12">
             To rapidly visualise different directions, I used generative tools
