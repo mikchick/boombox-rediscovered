@@ -49,7 +49,7 @@ const Index = () => {
       </div>
 
       {/* Observation */}
-      <section className="editorial-section">
+      <section className="editorial-section reveal">
         <div className="editorial-container">
           <span className="editorial-label">01 — Observation</span>
           <h2 className="editorial-subhead mb-6">Observation</h2>
