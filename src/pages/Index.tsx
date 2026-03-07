@@ -118,23 +118,11 @@ const Index = () => {
             informed the next, pushing the concept from rough idea toward
             something tangible.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <img
-              src={aiExploration1}
-              alt="AI-generated boombox concept — dark industrial"
-              className="editorial-image"
-            />
-            <img
-              src={aiExploration2}
-              alt="AI-generated boombox concept — warm retro-modern"
-              className="editorial-image"
-            />
-            <img
-              src={aiExploration3}
-              alt="AI-generated boombox concept — minimal with screen"
-              className="editorial-image"
-            />
-          </div>
+          <img
+            src={aiExplorations}
+            alt="AI-generated boombox concept iterations"
+            className="editorial-image"
+          />
         </div>
       </section>
 
