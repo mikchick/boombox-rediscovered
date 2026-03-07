@@ -184,7 +184,7 @@ const Index = () => {
       </section>
 
       {/* Working Prototype */}
-      <section id="prototype" className="editorial-section border-t border-border">
+      <section id="prototype" className="editorial-section border-t border-border reveal">
         <div className="editorial-container text-center">
           <span className="editorial-label">06 — Working Prototype</span>
           <h2 className="editorial-subhead mb-6">Working Prototype</h2>
