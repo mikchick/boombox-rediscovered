@@ -55,14 +55,14 @@ const Index = () => {
               alt="JVC boombox in the Belltown hi-fi store"
               className="editorial-image"
             />
-            <div className="editorial-image bg-muted flex items-center justify-center aspect-video">
-              <div className="text-center px-8">
-                <span className="editorial-label">Video Demo</span>
-                <p className="text-sm text-muted-foreground">
-                  A short clip of the boombox in action at the store.
-                </p>
-              </div>
-            </div>
+            <video
+              src="/videos/hifidemo.MOV"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="editorial-image aspect-video object-cover"
+            />
           </div>
         </div>
       </section>
