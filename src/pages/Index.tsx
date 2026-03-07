@@ -40,7 +40,7 @@ const Index = () => {
         </div>
       </section>
 
-      <div className="editorial-container">
+      <div className="editorial-container reveal">
         <img
           src={heroBoombox}
           alt="Vintage JVC boombox in a hi-fi shop"
