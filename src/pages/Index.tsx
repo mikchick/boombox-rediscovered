@@ -118,11 +118,20 @@ const Index = () => {
             informed the next, pushing the concept from rough idea toward
             something tangible.
           </p>
-          <img
-            src={aiExplorations}
-            alt="AI-generated boombox concept iterations"
-            className="editorial-image"
-          />
+          <div className="relative">
+            <img
+              src={aiExplorations}
+              alt="AI-generated boombox concept iterations"
+              className="editorial-image"
+            />
+            {/* Captions overlay */}
+            <span className="absolute top-[2%] left-[2%] text-[10px] sm:text-xs font-mono text-white/80 bg-black/50 px-1.5 py-0.5 rounded">1st attempt</span>
+            <span className="absolute top-[2%] left-[35%] text-[10px] sm:text-xs font-mono text-white/80 bg-black/50 px-1.5 py-0.5 rounded">3rd attempt</span>
+            <span className="absolute top-[2%] left-[68%] text-[10px] sm:text-xs font-mono text-white/80 bg-black/50 px-1.5 py-0.5 rounded">5th attempt</span>
+            <span className="absolute top-[52%] left-[2%] text-[10px] sm:text-xs font-mono text-white/80 bg-black/50 px-1.5 py-0.5 rounded">7th attempt</span>
+            <span className="absolute top-[52%] left-[35%] text-[10px] sm:text-xs font-mono text-white/80 bg-black/50 px-1.5 py-0.5 rounded">8th attempt</span>
+            <span className="absolute top-[52%] left-[68%] text-[10px] sm:text-xs font-mono text-white/80 bg-black/50 px-1.5 py-0.5 rounded">Final</span>
+          </div>
         </div>
       </section>
 
