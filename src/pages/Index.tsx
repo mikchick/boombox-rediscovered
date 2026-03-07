@@ -66,7 +66,7 @@ const Index = () => {
               alt="JVC boombox in the Belltown hi-fi store"
               className="editorial-image"
             />
-            <div className="relative">
+            <div>
               <video
                 ref={videoRef}
                 src="/videos/hifidemo.MOV"
@@ -78,10 +78,11 @@ const Index = () => {
               />
               <button
                 onClick={toggleMute}
-                className="absolute bottom-3 right-3 bg-foreground/70 hover:bg-foreground/90 text-background rounded-full p-2 transition-colors"
+                className="flex items-center gap-1.5 mt-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
                 aria-label={isMuted ? "Unmute video" : "Mute video"}
               >
-                {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+                {isMuted ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5" />}
+                {isMuted ? "Turn on sound" : "Mute"}
               </button>
             </div>
           </div>
