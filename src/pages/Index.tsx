@@ -160,9 +160,12 @@ const Index = () => {
             dark, utilitarian, and information-dense in the way vintage audio
             equipment naturally is. Every element earns its place.
           </p>
-          <img
-            src={interfaceConcept}
-            alt="Modern boombox interface design concept"
+          <video
+            src="/videos/360_product.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="editorial-image"
           />
         </div>
