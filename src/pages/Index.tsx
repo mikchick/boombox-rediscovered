@@ -91,9 +91,7 @@ const Index = () => {
       </section>
 
       {/* Rapid Sketch */}
-      <section className="editorial-section border-t border-border">
-        <div className="editorial-container">
-          <span className="editorial-label">02 — Rapid Sketch</span>
+      <section className="editorial-section border-t border-border reveal">
           <h2 className="editorial-subhead mb-6">Rapid Sketch</h2>
           <p className="editorial-body mb-12">
             Back home that evening, the idea wouldn't let go. I grabbed the
