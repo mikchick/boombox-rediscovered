@@ -202,9 +202,7 @@ const Index = () => {
       </section>
 
       {/* Reflection */}
-      <section className="editorial-section border-t border-border">
-        <div className="editorial-container">
-          <span className="editorial-label">07 — Reflection</span>
+      <section className="editorial-section border-t border-border reveal">
           <h2 className="editorial-subhead mb-10">What I Learned</h2>
           <ul className="space-y-4 max-w-lg">
             <li className="editorial-bullet">
