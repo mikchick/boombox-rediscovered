@@ -5,7 +5,7 @@ import envelopeSketch from "@/assets/envelope-sketch.jpg";
 import aiExploration1 from "@/assets/ai-exploration-1.jpg";
 import aiExploration2 from "@/assets/ai-exploration-2.jpg";
 import aiExploration3 from "@/assets/ai-exploration-3.jpg";
-import interfaceConcept from "@/assets/interface-concept.jpg";
+
 
 const Index = () => {
   return (
