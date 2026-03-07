@@ -5,7 +5,7 @@ import envelopeSketch from "@/assets/envelope-sketch.jpg";
 import aiExploration1 from "@/assets/ai-exploration-1.jpg";
 import aiExploration2 from "@/assets/ai-exploration-2.jpg";
 import aiExploration3 from "@/assets/ai-exploration-3.jpg";
-import interfaceConcept from "@/assets/interface-concept.jpg";
+
 
 const Index = () => {
   return (
@@ -160,9 +160,12 @@ const Index = () => {
             dark, utilitarian, and information-dense in the way vintage audio
             equipment naturally is. Every element earns its place.
           </p>
-          <img
-            src={interfaceConcept}
-            alt="Modern boombox interface design concept"
+          <video
+            src="/videos/360_product.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="editorial-image"
           />
         </div>
