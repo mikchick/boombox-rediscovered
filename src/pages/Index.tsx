@@ -18,6 +18,8 @@ const Index = () => {
     }
   };
 
+  useScrollReveal();
+
   return (
     <main className="bg-background min-h-screen">
       {/* Hero */}
