@@ -9,6 +9,16 @@ import aiExploration3 from "@/assets/ai-exploration-3.jpg";
 
 
 const Index = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMuted, setIsMuted] = useState(true);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(!isMuted);
+    }
+  };
+
   return (
     <main className="bg-background min-h-screen">
       {/* Hero */}
