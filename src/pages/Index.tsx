@@ -1,5 +1,6 @@
 import { ArrowRight, Volume2, VolumeX } from "lucide-react";
 import { useRef, useState } from "react";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import heroBoombox from "@/assets/hero-boombox.jpg";
 import boomboxStore from "@/assets/boombox-store.jpg";
 import envelopeSketch from "@/assets/envelope-sketch.jpg";
