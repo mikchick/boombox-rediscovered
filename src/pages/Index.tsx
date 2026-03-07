@@ -92,6 +92,8 @@ const Index = () => {
 
       {/* Rapid Sketch */}
       <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">02 — Rapid Sketch</span>
           <h2 className="editorial-subhead mb-6">Rapid Sketch</h2>
           <p className="editorial-body mb-12">
             Back home that evening, the idea wouldn't let go. I grabbed the
@@ -110,6 +112,8 @@ const Index = () => {
 
       {/* Exploration with AI */}
       <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">03 — Exploration with AI</span>
           <h2 className="editorial-subhead mb-6">Exploration with AI</h2>
           <p className="editorial-body mb-12">
             To rapidly visualise different directions, I used generative tools
@@ -136,6 +140,8 @@ const Index = () => {
 
       {/* Design Principle */}
       <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">04 — The Design Principle</span>
           <h2 className="editorial-subhead mb-6">Respect the Original DNA</h2>
           <p className="editorial-body mb-10">
             Rather than reimagining the boombox from scratch, the guiding
