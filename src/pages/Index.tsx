@@ -1,5 +1,6 @@
 import { ArrowRight, Volume2, VolumeX } from "lucide-react";
 import { useRef, useState } from "react";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import heroBoombox from "@/assets/hero-boombox.jpg";
 import boomboxStore from "@/assets/boombox-store.jpg";
 import envelopeSketch from "@/assets/envelope-sketch.jpg";
@@ -16,6 +17,8 @@ const Index = () => {
       setIsMuted(!isMuted);
     }
   };
+
+  useScrollReveal();
 
   return (
     <main className="bg-background min-h-screen">
@@ -37,7 +40,7 @@ const Index = () => {
         </div>
       </section>
 
-      <div className="editorial-container">
+      <div className="editorial-container reveal">
         <img
           src={heroBoombox}
           alt="Vintage JVC boombox in a hi-fi shop"
@@ -46,7 +49,7 @@ const Index = () => {
       </div>
 
       {/* Observation */}
-      <section className="editorial-section">
+      <section className="editorial-section reveal">
         <div className="editorial-container">
           <span className="editorial-label">01 — Observation</span>
           <h2 className="editorial-subhead mb-6">Observation</h2>
@@ -88,7 +91,7 @@ const Index = () => {
       </section>
 
       {/* Rapid Sketch */}
-      <section className="editorial-section border-t border-border">
+      <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
           <span className="editorial-label">02 — Rapid Sketch</span>
           <h2 className="editorial-subhead mb-6">Rapid Sketch</h2>
@@ -108,7 +111,7 @@ const Index = () => {
       </section>
 
       {/* Exploration with AI */}
-      <section className="editorial-section border-t border-border">
+      <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
           <span className="editorial-label">03 — Exploration with AI</span>
           <h2 className="editorial-subhead mb-6">Exploration with AI</h2>
@@ -136,7 +139,7 @@ const Index = () => {
       </section>
 
       {/* Design Principle */}
-      <section className="editorial-section border-t border-border">
+      <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
           <span className="editorial-label">04 — The Design Principle</span>
           <h2 className="editorial-subhead mb-6">Respect the Original DNA</h2>
@@ -168,7 +171,7 @@ const Index = () => {
       </section>
 
       {/* Interface Concept */}
-      <section className="editorial-section border-t border-border">
+      <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
           <span className="editorial-label">05 — Interface Concept</span>
           <h2 className="editorial-subhead mb-6">Interface Concept</h2>
@@ -189,7 +192,7 @@ const Index = () => {
       </section>
 
       {/* Working Prototype */}
-      <section id="prototype" className="editorial-section border-t border-border">
+      <section id="prototype" className="editorial-section border-t border-border reveal">
         <div className="editorial-container text-center">
           <span className="editorial-label">06 — Working Prototype</span>
           <h2 className="editorial-subhead mb-6">Working Prototype</h2>
@@ -207,7 +210,7 @@ const Index = () => {
       </section>
 
       {/* Reflection */}
-      <section className="editorial-section border-t border-border">
+      <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
           <span className="editorial-label">07 — Reflection</span>
           <h2 className="editorial-subhead mb-10">What I Learned</h2>
