@@ -1,4 +1,5 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Volume2, VolumeX } from "lucide-react";
+import { useRef, useState } from "react";
 import heroBoombox from "@/assets/hero-boombox.jpg";
 import boomboxStore from "@/assets/boombox-store.jpg";
 import envelopeSketch from "@/assets/envelope-sketch.jpg";
@@ -8,6 +9,16 @@ import aiExploration3 from "@/assets/ai-exploration-3.jpg";
 
 
 const Index = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMuted, setIsMuted] = useState(true);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(!isMuted);
+    }
+  };
+
   return (
     <main className="bg-background min-h-screen">
       {/* Hero */}
@@ -55,14 +66,24 @@ const Index = () => {
               alt="JVC boombox in the Belltown hi-fi store"
               className="editorial-image"
             />
-            <video
-              src="/videos/hifidemo.MOV"
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="editorial-image aspect-video object-cover"
-            />
+            <div className="relative">
+              <video
+                ref={videoRef}
+                src="/videos/hifidemo.MOV"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="editorial-image aspect-video object-cover"
+              />
+              <button
+                onClick={toggleMute}
+                className="absolute bottom-3 right-3 bg-foreground/70 hover:bg-foreground/90 text-background rounded-full p-2 transition-colors"
+                aria-label={isMuted ? "Unmute video" : "Mute video"}
+              >
+                {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+              </button>
+            </div>
           </div>
         </div>
       </section>
