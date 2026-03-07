@@ -172,6 +172,8 @@ const Index = () => {
 
       {/* Interface Concept */}
       <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">05 — Interface Concept</span>
           <h2 className="editorial-subhead mb-6">Interface Concept</h2>
           <p className="editorial-body mb-12">
             The screen interface was designed to feel native to the boombox —
@@ -209,6 +211,8 @@ const Index = () => {
 
       {/* Reflection */}
       <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">07 — Reflection</span>
           <h2 className="editorial-subhead mb-10">What I Learned</h2>
           <ul className="space-y-4 max-w-lg">
             <li className="editorial-bullet">
