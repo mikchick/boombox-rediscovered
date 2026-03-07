@@ -3,9 +3,7 @@ import { useRef, useState } from "react";
 import heroBoombox from "@/assets/hero-boombox.jpg";
 import boomboxStore from "@/assets/boombox-store.jpg";
 import envelopeSketch from "@/assets/envelope-sketch.jpg";
-import aiExploration1 from "@/assets/ai-exploration-1.jpg";
-import aiExploration2 from "@/assets/ai-exploration-2.jpg";
-import aiExploration3 from "@/assets/ai-exploration-3.jpg";
+import aiExplorations from "@/assets/ai-explorations.png";
 
 
 const Index = () => {
