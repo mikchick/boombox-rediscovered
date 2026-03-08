@@ -98,10 +98,20 @@ const Index = () => {
         </div>
       </section>
 
+      {/* The Discovery Problem */}
+      <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">02 — The Discovery Problem</span>
+          <h2 className="editorial-subhead mb-6">The Discovery Problem</h2>
+          <p className="editorial-body mb-12">
+          </p>
+        </div>
+      </section>
+
       {/* Rapid Sketch */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">02 — Rapid Sketch</span>
+          <span className="editorial-label">03 — Rapid Sketch</span>
           <h2 className="editorial-subhead mb-6">Rapid Sketch</h2>
           <p className="editorial-body mb-12">
             Back home that evening, the idea wouldn't let go. I grabbed the
