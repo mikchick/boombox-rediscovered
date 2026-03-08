@@ -103,7 +103,36 @@ const Index = () => {
         <div className="editorial-container">
           <span className="editorial-label">02 — The Discovery Problem</span>
           <h2 className="editorial-subhead mb-6">The Discovery Problem</h2>
+          <p className="editorial-body mb-6">
+            Modern streaming platforms solved access to music.
+          </p>
+          <p className="editorial-body mb-6">
+            With millions of tracks available instantly, the problem is no
+            longer finding music. It's knowing where to begin.
+          </p>
+          <p className="editorial-body mb-6">
+            Recommendation algorithms attempt to solve this by predicting what
+            listeners might enjoy next. While effective, they tend to reinforce
+            familiar patterns, surfacing music similar to what you've already
+            heard.
+          </p>
+          <p className="editorial-body mb-6">
+            Discovery becomes efficient, but not necessarily exploratory.
+          </p>
+          <p className="editorial-body mb-6">
+            What I missed was the feeling of tuning into something unexpected.
+            The experience of landing on a radio station, a late-night
+            broadcast, or a scene from another time and place. Instead of asking
+            "What song should play next?" I began asking a different question.
+          </p>
+          <p className="editorial-body mb-6 italic">
+            What if music discovery felt like traveling through time and location
+            instead of following an algorithm?
+          </p>
           <p className="editorial-body mb-12">
+            Modern streaming platforms rely heavily on collaborative filtering.
+            Recommending songs based on listening patterns from users with
+            similar tastes.
           </p>
         </div>
       </section>
