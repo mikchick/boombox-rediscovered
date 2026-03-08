@@ -53,13 +53,21 @@ const Index = () => {
         <div className="editorial-container">
           <span className="editorial-label">01 — Observation</span>
           <h2 className="editorial-subhead mb-6">Observation</h2>
+          <p className="editorial-body mb-6">
+            As I was walking through Tune, a hi-fi store in Belltown, Seattle, I
+            spotted a vintage JVC boombox sitting on a wooden shelf between
+            modern speakers.
+          </p>
+          <p className="editorial-body mb-6">
+            The shop owner powered it on for a quick demo. The warm analog
+            sound, the satisfying click of the cassette buttons, the weight of
+            the tuning dial. It felt like holding a piece of musical history
+            that still had something to say.
+          </p>
           <p className="editorial-body mb-12">
-            Walking through a hi-fi store in Belltown, Seattle, I spotted a
-            vintage JVC boombox sitting on a wooden shelf between modern
-            speakers. The shop owner powered it on for a quick demo — the warm
-            analog sound, the satisfying click of the cassette buttons, the
-            weight of the tuning dial. It felt like holding a piece of musical
-            history that still had something to say.
+            What struck me wasn't the nostalgia. It was how intentional the
+            experience felt. You didn't open a boombox to scroll endlessly. You
+            tuned into a place, a station, a moment in time.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <img
