@@ -275,7 +275,7 @@ const Index = () => {
       {/* A Different Way to Discover */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">07 — A Different Way to Discover</span>
+          <span className="editorial-label">07 — Discovery Model</span>
           <h2 className="editorial-subhead mb-6">A Different Way to Discover</h2>
           <p className="editorial-body mb-6">
             Instead of opening an app and scrolling through recommendations, the
