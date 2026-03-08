@@ -130,11 +130,23 @@ const Index = () => {
             What if music discovery felt like traveling through time and location
             instead of following an algorithm?
           </p>
-          <p className="editorial-body mb-12">
+          <p className="editorial-body mb-6">
             Modern streaming platforms rely heavily on collaborative filtering.
             Recommending songs based on listening patterns from users with
             similar tastes.
           </p>
+          <figure className="mt-8">
+            <img
+              src={sundayAfternoon}
+              alt="Spotify algorithmic playlist recommendations"
+              className="editorial-image"
+            />
+            <figcaption className="text-sm text-muted-foreground mt-3">
+              Streaming platforms increasingly organize discovery through
+              algorithmic playlists. Mixes are generated from listening history,
+              mood signals, and predicted preferences.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
