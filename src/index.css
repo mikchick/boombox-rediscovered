@@ -115,6 +115,11 @@
     font-family: var(--font-body);
   }
 
+  .editorial-bullet::before {
+    content: '';
+    @apply absolute left-0 top-[0.6em] w-1.5 h-1.5 rounded-full bg-border;
+  }
+
   /* Scroll reveal */
   .reveal {
     opacity: 0;
