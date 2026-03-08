@@ -111,8 +111,13 @@
   }
 
   .editorial-bullet {
-    @apply text-sm md:text-base text-muted-foreground leading-relaxed pl-4 border-l border-border;
+    @apply text-sm md:text-base text-muted-foreground leading-relaxed pl-6 relative;
     font-family: var(--font-body);
+  }
+
+  .editorial-bullet::before {
+    content: '';
+    @apply absolute left-0 top-[0.6em] w-1.5 h-1.5 rounded-full bg-border;
   }
 
   /* Scroll reveal */
