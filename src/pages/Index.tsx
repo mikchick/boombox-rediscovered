@@ -337,7 +337,7 @@ const Index = () => {
               disciplined interface decisions.
             </li>
             <li className="editorial-bullet">
-              Generative AI is most useful in the divergent phase — expanding
+              Generative AI is most useful in the divergent phase, expanding
               possibilities before converging on a direction.
             </li>
             <li className="editorial-bullet">
