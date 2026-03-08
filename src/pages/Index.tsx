@@ -330,7 +330,7 @@ const Index = () => {
           <ul className="space-y-4 max-w-lg">
             <li className="editorial-bullet">
               Physical objects carry emotional weight that digital products
-              rarely achieve — studying them is worthwhile.
+              rarely achieve. Studying them is worthwhile :)
             </li>
             <li className="editorial-bullet">
               Constraints breed creativity: the boombox form factor forced
