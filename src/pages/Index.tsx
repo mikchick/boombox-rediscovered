@@ -30,8 +30,8 @@ const Index = () => {
             Reimagining the Boombox for the Streaming Era
           </h1>
           <p className="editorial-body mb-10">
-            A small design exploration inspired by discovering a vintage JVC
-            boombox in a hi-fi shop in Seattle.
+            A design exploration inspired by discovering a vintage JVC boombox
+            and then rethinking how music discovery might work in the streaming era.
           </p>
           <a href="#prototype" className="editorial-btn">
             Launch the Interactive Prototype
