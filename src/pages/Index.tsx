@@ -226,8 +226,8 @@ const Index = () => {
           <h2 className="editorial-subhead mb-6">Respect the Original DNA</h2>
           <p className="editorial-body mb-10">
             Rather than reimagining the boombox from scratch, the guiding
-            principle was to preserve its architecture — the proportions, the
-            speaker placement, the satisfying physicality — while updating only
+            principle was to preserve its architecture (the proportions, the
+            speaker placement, the satisfying physicality). Update only
             what needed to change for modern listening.
           </p>
           <div className="editorial-divider mb-8" />
