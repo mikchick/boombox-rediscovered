@@ -155,12 +155,33 @@ const Index = () => {
         <div className="editorial-container">
           <span className="editorial-label">03 — Defining the Core Interaction</span>
           <h2 className="editorial-subhead mb-6">Defining the Core Interaction</h2>
-          <p className="editorial-body mb-12">
+          <p className="editorial-body mb-6">
             Back home that evening, the idea wouldn't let go. I grabbed the
-            nearest thing — a mailing envelope — and started sketching. No
-            ruler, no grid, just the core architecture: two speakers, a central
-            interface bay, and the question of what replaces the cassette deck
-            when music lives in the cloud.
+            nearest thing, which was a mailing envelope, and I started
+            sketching. Two speakers, a central interface bay, and the question
+            of what replaces the cassette deck when music lives in the cloud.
+          </p>
+          <p className="editorial-body mb-6">
+            The sketch focused less on screens and more on interaction. Instead
+            of playlists or feeds, the controls are imagined for music discovery
+            through a few simple dimensions:
+          </p>
+          <ul className="space-y-2 max-w-lg mb-8 font-mono text-sm text-muted-foreground">
+            <li><strong className="text-foreground">Time dial</strong> → Browse by era</li>
+            <li><strong className="text-foreground">Location selector</strong> → Explore scenes around the world</li>
+            <li><strong className="text-foreground">Genre knob</strong> → Nail stylistic direction</li>
+            <li><strong className="text-foreground">Display</strong> → Shows broadcast from selected context</li>
+          </ul>
+          <p className="editorial-body mb-6">
+            This sketch helped me establish the mental model.
+          </p>
+          <p className="editorial-body mb-6 italic">
+            Music discovery is tuning into a broadcast across time and place,
+            rather than scrolling through recommendations.
+          </p>
+          <p className="editorial-body mb-12">
+            Once the interaction idea was clear, the next step was exploring how
+            the form and interface might evolve.
           </p>
           <img
             src={envelopeSketch}
