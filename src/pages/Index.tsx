@@ -98,10 +98,20 @@ const Index = () => {
         </div>
       </section>
 
+      {/* The Discovery Problem */}
+      <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">02 — The Discovery Problem</span>
+          <h2 className="editorial-subhead mb-6">The Discovery Problem</h2>
+          <p className="editorial-body mb-12">
+          </p>
+        </div>
+      </section>
+
       {/* Rapid Sketch */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">02 — Rapid Sketch</span>
+          <span className="editorial-label">03 — Rapid Sketch</span>
           <h2 className="editorial-subhead mb-6">Rapid Sketch</h2>
           <p className="editorial-body mb-12">
             Back home that evening, the idea wouldn't let go. I grabbed the
@@ -121,7 +131,7 @@ const Index = () => {
       {/* Exploration with AI */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">03 — Exploration with AI</span>
+          <span className="editorial-label">04 — Exploration with AI</span>
           <h2 className="editorial-subhead mb-6">Exploration with AI</h2>
           <p className="editorial-body mb-12">
             To rapidly visualise different directions, I used generative tools
@@ -149,7 +159,7 @@ const Index = () => {
       {/* Design Principle */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">04 — The Design Principle</span>
+          <span className="editorial-label">05 — The Design Principle</span>
           <h2 className="editorial-subhead mb-6">Respect the Original DNA</h2>
           <p className="editorial-body mb-10">
             Rather than reimagining the boombox from scratch, the guiding
@@ -181,7 +191,7 @@ const Index = () => {
       {/* Interface Concept */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">05 — Interface Concept</span>
+          <span className="editorial-label">06 — Interface Concept</span>
           <h2 className="editorial-subhead mb-6">Interface Concept</h2>
           <p className="editorial-body mb-12">
             The screen interface was designed to feel native to the boombox —
@@ -202,7 +212,7 @@ const Index = () => {
       {/* Working Prototype */}
       <section id="prototype" className="editorial-section border-t border-border reveal">
         <div className="editorial-container text-center">
-          <span className="editorial-label">06 — Working Prototype</span>
+          <span className="editorial-label">07 — Working Prototype</span>
           <h2 className="editorial-subhead mb-6">Working Prototype</h2>
           <p className="editorial-body mx-auto mb-10">
             A small web prototype was built to explore how the interface
@@ -220,7 +230,7 @@ const Index = () => {
       {/* Reflection */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">07 — Reflection</span>
+          <span className="editorial-label">08 — Reflection</span>
           <h2 className="editorial-subhead mb-10">What I Learned</h2>
           <ul className="space-y-4 max-w-lg">
             <li className="editorial-bullet">
