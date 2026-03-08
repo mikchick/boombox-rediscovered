@@ -298,7 +298,7 @@ const Index = () => {
       {/* Working Prototype */}
       <section id="prototype" className="editorial-section border-t border-border reveal">
         <div className="editorial-container text-center">
-          <span className="editorial-label">08 — Working Prototype</span>
+          <span className="editorial-label">08 — Prototype</span>
           <h2 className="editorial-subhead mb-6">Working Prototype</h2>
           <p className="editorial-body mx-auto mb-6">
             Instead of static mockups, a small web prototype was built to
