@@ -272,10 +272,33 @@ const Index = () => {
         </div>
       </section>
 
+      {/* A Different Way to Discover */}
+      <section className="editorial-section border-t border-border reveal">
+        <div className="editorial-container">
+          <span className="editorial-label">07 — A Different Way to Discover</span>
+          <h2 className="editorial-subhead mb-6">A Different Way to Discover</h2>
+          <p className="editorial-body mb-6">
+            Instead of opening an app and scrolling through recommendations, the
+            experience begins with a simple choice: where and when.
+          </p>
+          <p className="editorial-body mb-6">
+            Turning the time dial might tune the system to 1990s Seattle,
+            surfacing the early grunge scene. Shifting location could move the
+            broadcast to 1970s Tokyo jazz clubs or early 2000s UK garage.
+          </p>
+          <p className="editorial-body mb-12">
+            Rather than asking the listener to pick a specific song, the system
+            presents a moment in musical history…a broadcast from a particular
+            time and place. Discovery becomes less about prediction and more
+            about exploration.
+          </p>
+        </div>
+      </section>
+
       {/* Working Prototype */}
       <section id="prototype" className="editorial-section border-t border-border reveal">
         <div className="editorial-container text-center">
-          <span className="editorial-label">07 — Working Prototype</span>
+          <span className="editorial-label">08 — Working Prototype</span>
           <h2 className="editorial-subhead mb-6">Working Prototype</h2>
           <p className="editorial-body mx-auto mb-10">
             A small web prototype was built to explore how the interface
