@@ -257,7 +257,7 @@ const Index = () => {
           <span className="editorial-label">06 — Interface Concept</span>
           <h2 className="editorial-subhead mb-6">Interface Concept</h2>
           <p className="editorial-body mb-12">
-            The screen interface was designed to feel native to the boombox —
+            The screen interface was designed to feel native to the boombox. A
             dark, utilitarian, and information-dense in the way vintage audio
             equipment naturally is. Every element earns its place.
           </p>
