@@ -5,6 +5,7 @@ import heroBoombox from "@/assets/hero-boombox.jpg";
 import boomboxStore from "@/assets/boombox-store.jpg";
 import envelopeSketch from "@/assets/envelope-sketch.jpg";
 import aiExplorations from "@/assets/ai-explorations.png";
+import sundayAfternoon from "@/assets/sunday-afternoon.png";
 
 
 const Index = () => {
