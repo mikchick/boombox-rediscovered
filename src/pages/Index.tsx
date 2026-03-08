@@ -26,7 +26,7 @@ const Index = () => {
       {/* Hero */}
       <section className="editorial-section pt-32 md:pt-44 pb-12 md:pb-20">
         <div className="editorial-container">
-          <span className="editorial-label">Design Exploration</span>
+          <span className="editorial-label">Design Exploration • 2026</span>
           <h1 className="editorial-headline max-w-[14ch] mb-8">
             Reimagining the Boombox for the Streaming Era
           </h1>
