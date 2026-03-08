@@ -333,8 +333,8 @@ const Index = () => {
               rarely achieve. Studying them is worthwhile :)
             </li>
             <li className="editorial-bullet">
-              Constraints breed creativity: the boombox form factor forced
-              disciplined interface decisions.
+              Constraints breed creativity. The boombox physical form factor
+              forced disciplined interface decisions.
             </li>
             <li className="editorial-bullet">
               Generative AI is most useful in the divergent phase, expanding
