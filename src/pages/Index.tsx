@@ -102,8 +102,8 @@ const Index = () => {
       {/* The Discovery Problem */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">02 — The Discovery Problem</span>
-          <h2 className="editorial-subhead mb-6">The Discovery Problem</h2>
+          <span className="editorial-label">02 — Discovery</span>
+          <h2 className="editorial-subhead mb-6">How We Discover Music Today</h2>
           <p className="editorial-body mb-6">
             Modern streaming platforms solved access to music.
           </p>
