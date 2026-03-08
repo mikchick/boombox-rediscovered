@@ -34,7 +34,7 @@ const Index = () => {
             A design exploration inspired by discovering a vintage JVC boombox
             and then rethinking how music discovery might work in the streaming era.
           </p>
-          <a href="#prototype" className="editorial-btn">
+          <a href="https://mikchick.github.io/boombox-music-player/" target="_blank" rel="noopener noreferrer" className="editorial-btn">
             Launch the Interactive Prototype
             <ArrowRight className="w-4 h-4" />
           </a>
@@ -315,7 +315,7 @@ const Index = () => {
             Small details like these are difficult to evaluate in static
             screens, but become obvious once the experience is interactive.
           </p>
-          <a href="#" className="editorial-btn">
+          <a href="https://mikchick.github.io/boombox-music-player/" target="_blank" rel="noopener noreferrer" className="editorial-btn">
             Launch Prototype
             <ArrowRight className="w-4 h-4" />
           </a>
