@@ -300,11 +300,20 @@ const Index = () => {
         <div className="editorial-container text-center">
           <span className="editorial-label">08 — Working Prototype</span>
           <h2 className="editorial-subhead mb-6">Working Prototype</h2>
+          <p className="editorial-body mx-auto mb-6">
+            Instead of static mockups, a small web prototype was built to
+            explore how the interface actually feels (timing of transitions, the
+            weight of controls, and the rhythm of browsing music on a device
+            meant to sit on a shelf rather than live in a pocket.
+          </p>
+          <p className="editorial-body mx-auto mb-6">
+            The prototype focuses less on visual polish and more on
+            interaction: how a listener moves between eras, locations, and
+            broadcasts while music continues to play.
+          </p>
           <p className="editorial-body mx-auto mb-10">
-            A small web prototype was built to explore how the interface
-            actually feels — the timing of transitions, the weight of controls,
-            the rhythm of browsing music on a device that's meant to sit on a
-            shelf, not in your pocket.
+            Small details like these are difficult to evaluate in static
+            screens, but become obvious once the experience is interactive.
           </p>
           <a href="#" className="editorial-btn">
             Launch Prototype
