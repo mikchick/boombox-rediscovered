@@ -197,8 +197,8 @@ const Index = () => {
           <span className="editorial-label">04 — Exploration with AI</span>
           <h2 className="editorial-subhead mb-6">Exploration with AI</h2>
           <p className="editorial-body mb-12">
-            To rapidly visualise different directions, I used generative tools
-            to explore form factors, materials, and proportions. Each iteration
+            To rapidly visualise different directions, I used Nano Banana to
+            explore form factors, materials, and proportions. Each iteration
             informed the next, pushing the concept from rough idea toward
             something tangible.
           </p>
