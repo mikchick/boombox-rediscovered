@@ -153,8 +153,8 @@ const Index = () => {
       {/* Rapid Sketch */}
       <section className="editorial-section border-t border-border reveal">
         <div className="editorial-container">
-          <span className="editorial-label">03 — Rapid Sketch</span>
-          <h2 className="editorial-subhead mb-6">Rapid Sketch</h2>
+          <span className="editorial-label">03 — Defining the Core Interaction</span>
+          <h2 className="editorial-subhead mb-6">Defining the Core Interaction</h2>
           <p className="editorial-body mb-12">
             Back home that evening, the idea wouldn't let go. I grabbed the
             nearest thing — a mailing envelope — and started sketching. No
