@@ -81,7 +81,7 @@ const Index = () => {
             <div>
               <video
                 ref={videoRef}
-                src="/videos/hifidemo.MOV"
+                src="videos/hifidemo.MOV"
                 autoPlay
                 loop
                 muted
@@ -264,7 +264,7 @@ const Index = () => {
             equipment naturally is. Every element earns its place.
           </p>
           <video
-            src="/videos/360_product.mp4"
+         src="videos/360_product.mp4"
             autoPlay
             loop
             muted
